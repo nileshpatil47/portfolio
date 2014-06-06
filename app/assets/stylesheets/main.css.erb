@@ -55,7 +55,7 @@ a img, a, img { border: none; outline: none; text-decoration: none;}
     right: 1%;
     width: 64px;
     height: 64px;
-    background-image: url('/assets/up.png');
+    background-image: url('<%= asset_path("up.png") %>');
     background-repeat: no-repeat;
     background-size: 64px 64px;
     opacity: 0.4;
@@ -364,7 +364,7 @@ h5 {
 	overflow: auto;
 }
 .parallax1 { 
-    background-image: url("/assets/background2.jpg");
+    background-image: url('<%= asset_path("background2.jpg") %>');
     overflow: auto;
     padding: 80px 0;
     -webkit-background-size: cover;
@@ -375,7 +375,7 @@ h5 {
 }
 .parallax1 p, .parallax1 h2, .parallax2 p, .parallax2 h2 { color: #ffffff; }
 .parallax2 {
-    background-image: url("/assets/background2.jpg");
+    background-image: url('<%= asset_path("background2.jpg") %>');
     overflow: auto;
     padding: 80px 0;
     -webkit-background-size: cover;
@@ -685,8 +685,8 @@ h5 {
     padding: 0;
     text-transform: uppercase;
 }
-.eye { 
-    background-image: url("/assets/magnify.gif");
+.eye {
+    background-image: url('<%= asset_path("magnify.gif") %>');
     background-position: center center;
     width: 99%;
     height: auto;
@@ -869,7 +869,7 @@ p.success {
 }
 /* mouse grab icon for Owl Carousel */
 .grabbing { 
-    cursor:url("/assets/grabbing.png") 8 8, move;
+    cursor:url('<%= asset_path("grabbing.png") %>') 8 8, move;
 }
 .clearfix:after {
     content: "";

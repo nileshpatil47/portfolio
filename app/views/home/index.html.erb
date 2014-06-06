@@ -11,18 +11,18 @@
 <title>UNO - A Powerful Personal Portfolio and Resume Page</title>
     
 <!-- Loading of stylesheet for the design -->
-<link href="/assets/main.css" rel="stylesheet" type="text/css" />
+<link href='<%= asset_path("main.css") %>' rel="stylesheet" type="text/css" />
     
 <!-- This tells the page to watch for special styling for IE9 -->
 <!--[if IE 9 ]>    <html class= "ie9"> <![endif]-->
 
 <!-- Important external stylesheets -->
-<link rel="stylesheet" href="/assets/owl.carousel.css">
-<link rel="stylesheet" href="/assets/owl.theme.css">
-<link rel="stylesheet" href="/assets/fontello.css">
-<link rel="stylesheet" href="/assets/jquery.fancybox8cbb.css?v=2.1.5" type="text/css" media="screen" /> 
-<link rel="stylesheet" href="/assets/jquery.fs.wallpaper.css" type="text/css" media="all" />
-<link rel="stylesheet" href="/assets/animate.css">
+<link rel="stylesheet" href='<%= asset_path("owl.carousel.css") %>'>
+<link rel="stylesheet" href='<%= asset_path("owl.theme.css") %>'>
+<link rel="stylesheet" href='<%= asset_path("fontello.css") %>'>
+<link rel="stylesheet" href='<%= asset_path("jquery.fancybox8cbb.css?v=2.1.5") %>' type="text/css" media="screen" /> 
+<link rel="stylesheet" href='<%= asset_path("jquery.fs.wallpaper.css") %>' type="text/css" media="all" />
+<link rel="stylesheet" href='<%= asset_path("animate.css") %>'>
 
 <!-- Finally we will load the font from Google Fonts -->
 <link href='../../../fonts.googleapis.com/cssa319.css?family=Raleway:400,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
@@ -92,8 +92,7 @@
 
     <!-- Start of Main Title + Intro -->
     <div class="huge-title">
-
-        <img src="/assets/headshot.jpg" alt="Jonathan Atkinson" class="headshot wow tada" data-wow-delay="3s" data-wow-offset="80" data-wow-duration="1s">
+        <img src='<%= asset_path("headshot.jpg") %>' alt="Jonathan Atkinson" class="headshot wow tada" data-wow-delay="3s" data-wow-offset="80" data-wow-duration="1s">
         <h1 class="wow bounceInDown" data-wow-offset="80" data-wow-duration="3s">Jonathan Atkinson</h1>
 
         <!-- Start of Owl Testimonial Carousel -->
@@ -119,7 +118,7 @@
     <div id="godown" class="floating">
 
         <p><a href="#About">Learn more about Jonathan Atkinson</a></p>
-        <img src="/assets/godown.png" alt="down"/>
+        <img src='<%= asset_path("godown.png") %>' alt="down"/>
 
     </div><!-- End of Scroll Down Message and animation -->
 
@@ -197,7 +196,7 @@
 
                 <blockquote class="wow fadeInLeftBig" data-wow-offset="80" data-wow-duration="3s"><p>I wish to expand my skills on a daily basis with the help of an employee-focused company.</p></blockquote>
 
-                <img src="/assets/signature.png" width="250" alt="John Hancock">
+                <img src='<%= asset_path("signature.png") %>' width="250" alt="John Hancock">
             
             </div><!-- End of Content -->
             
@@ -371,13 +370,12 @@
                                     
                     <!-- Start of Owl Carousel -->
                     <div class="owl-example owl-carousel">
-                        
-                        <div><a href="/assets/client1.png" class="fancybox" rel="group"><img src="/assets/client1.png" alt="client 1" width="80%"/></a></div>
-                        <div><a href="/assets/client2.png" class="fancybox" rel="group"><img src="/assets/client2.png" alt="client 2" width="80%"/></a></div>
-                        <div><a href="/assets/client3.png" class="fancybox" rel="group"><img src="/assets/client3.png" alt="client 3" width="80%"/></a></div>
-                        <div><a href="/assets/client4.png" class="fancybox" rel="group"><img src="/assets/client4.png" alt="client 4" width="80%"/></a></div>
-                        <div><a href="/assets/client5.png" class="fancybox" rel="group"><img src="/assets/client5.png" alt="client 5" width="80%"/></a></div>
-                        <div><a href="/assets/client6.png" class="fancybox" rel="group"><img src="/assets/client6.png" alt="client 6" width="80%"/></a></div>
+                        <div><a href='<%= asset_path("client1.png") %>' class="fancybox" rel="group"><img src='<%= asset_path("client1.png") %>' alt="client 1" width="80%"/></a></div>
+                        <div><a href='<%= asset_path("client2.png") %>' class="fancybox" rel="group"><img src='<%= asset_path("client2.png") %>' alt="client 2" width="80%"/></a></div>
+                        <div><a href='<%= asset_path("client3.png") %>' class="fancybox" rel="group"><img src='<%= asset_path("client3.png") %>' alt="client 3" width="80%"/></a></div>
+                        <div><a href='<%= asset_path("client4.png") %>' class="fancybox" rel="group"><img src='<%= asset_path("client4.png") %>' alt="client 4" width="80%"/></a></div>
+                        <div><a href='<%= asset_path("client5.png") %>' class="fancybox" rel="group"><img src='<= asset_path("client5.png") %>' alt="client 5" width="80%"/></a></div>
+                        <div><a href='<%= asset_path("client6.png") %>' class="fancybox" rel="group"><img src='<%= asset_path("client6.png") %>' alt="client 6" width="80%"/></a></div>
                         
                     </div><!-- End of Carousel -->
                                
@@ -405,7 +403,7 @@
                     <!-- Start of 3 rows -->
                     <div class="one_third wow fadeInLeftBig" data-wow-offset="80" data-wow-duration="2s">
                         <div class="infopanel">
-                            <a href="/assets/port1.jpg" class="fancybox" rel="group2" ><div class="eye"><img src="/assets/port1.jpg" alt="Portfolio 1" /></div></a>
+                            <a href='<%= asset_path("port1.jpg") %>' class="fancybox" rel="group2" ><div class="eye"><img src='<%= asset_path("port1.jpg") %>' alt="Portfolio 1" /></div></a>
                             <h5>Fashion Watch</h5>
                             <p>Caption styling is also included and styled for <a href="#">links also</a></p>
                         </div>
@@ -413,7 +411,7 @@
 
                     <div class="one_third wow fadeInUpBig" data-wow-offset="80" data-wow-duration="2s">
                         <div class="infopanel">
-                            <a href="/assets/port2.jpg" class="fancybox" rel="group2" ><div class="eye"><img src="/assets/port2.jpg" alt="Portfolio 2" /></div></a>
+                            <a href='<%= asset_path("port2.jpg") %>' class="fancybox" rel="group2" ><div class="eye"><img src='<%= asset_path("port2.jpg") %>' alt="Portfolio 2" /></div></a>
                             <h5>TV Chair</h5>
                             <p>Caption styling is also included and styled for <a href="#">links also</a></p>
                         </div>
@@ -421,7 +419,7 @@
 
                     <div class="one_third_last wow fadeInRightBig" data-wow-offset="80" data-wow-duration="2s">
                         <div class="infopanel">
-                            <a href="/assets/port3.jpg" class="fancybox" rel="group2" ><div class="eye"><img src="/assets/port3.jpg" alt="Portfolio 3" /></div></a>
+                            <a href='<%= asset_path("port3.jpg") %>' class="fancybox" rel="group2" ><div class="eye"><img src='<%= asset_path("port3.jpg") %>' alt="Portfolio 3" /></div></a>
                             <h5>Sun Leak</h5>
                             <p>Caption styling is also included and styled for <a href="#">links also</a></p>
                         </div>
@@ -430,7 +428,7 @@
                     <!-- Start of 3 rows -->
                     <div class="one_third wow fadeInLeftBig" data-wow-offset="80" data-wow-duration="2s">
                         <div class="infopanel">
-                            <a href="/assets/port4.jpg" class="fancybox" rel="group2" ><div class="eye"><img src="/assets/port4.jpg" alt="Portfolio 4" /></div></a>
+                            <a href='<%= asset_path("port4.jpg") %>' class="fancybox" rel="group2" ><div class="eye"><img src='<%= asset_path("port4.jpg") %>' alt="Portfolio 4" /></div></a>
                             <h5>Water Balls</h5>
                             <p>Caption styling is also included and styled for <a href="#">links also</a></p>
                         </div>
@@ -438,7 +436,7 @@
 
                     <div class="one_third wow fadeInUpBig" data-wow-offset="80" data-wow-duration="2s">
                         <div class="infopanel">
-                            <a href="/assets/port5.jpg" class="fancybox" rel="group2" ><div class="eye"><img src="/assets/port5.jpg" alt="Portfolio 5" /></div></a>
+                            <a href='<%= asset_path("port5.jpg") %>' class="fancybox" rel="group2" ><div class="eye"><img src='<%= asset_path("port5.jpg") %>' alt="Portfolio 5" /></div></a>
                             <h5>Wedding Rings</h5>
                             <p>Caption styling is also included and styled for <a href="#">links also</a></p>
                         </div>
@@ -446,7 +444,7 @@
 
                     <div class="one_third_last wow fadeInRightBig" data-wow-offset="80" data-wow-duration="2s">
                         <div class="infopanel">
-                            <a href="/assets/port6.jpg" class="fancybox" rel="group2" ><div class="eye"><img src="/assets/port6.jpg" alt="Portfolio 6" /></div></a>
+                            <a href='<%= asset_path("port6.jpg") %>' class="fancybox" rel="group2" ><div class="eye"><img src='<%= asset_path("port6.jpg") %>' alt="Portfolio 6" /></div></a>
                             <h5>Time to Drive</h5>
                             <p>Caption styling is also included and styled for <a href="#">links also</a></p>
                         </div>
@@ -528,22 +526,22 @@
 <!--Load Fallback if google not avalible-->
 <script>
 if (!window.jQuery) {
-    document.write('<script src="js/jquery-1.11.0.min.js"><\/script>');
+    document.write('<script src="/assets/jquery-1.11.0.min.js"><\/script>');
 }
 </script>    
 <!-- Now we load the JS files for the fancy things on the page -->
-<script type="text/javascript" src="js/owl.carousel.js"></script>
-<script type="text/javascript" src="js/jquery.fitvids.js"></script>
-<script type="text/javascript" src="js/jquery.fancybox.pack8cbb.js?v=2.1.5"></script>
-<script type="text/javascript" src="js/retina.js"></script>
-<script type="text/javascript" src="js/jquery.scrollToTop.min.js"></script>
-<script type="text/javascript" src="js/jquery.fs.wallpaper.js"></script>
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js/jquery.plusanchor.js"></script>
-<script type="text/javascript" src="js/jquery.knob.js"></script>
+<script type="text/javascript" src="/assets/owl.carousel.js"></script>
+<script type="text/javascript" src="/assets/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/assets/jquery.fancybox.pack8cbb.js?v=2.1.5"></script>
+<script type="text/javascript" src="/assets/retina.js"></script>
+<script type="text/javascript" src="/assets/jquery.scrollToTop.min.js"></script>
+<script type="text/javascript" src="/assets/jquery.fs.wallpaper.js"></script>
+<script type="text/javascript" src="/assets/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/assets/jquery.plusanchor.js"></script>
+<script type="text/javascript" src="/assets/jquery.knob.js"></script>
 <!--[if IE]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
-<script type="text/javascript" src="js/app.js"></script>
-<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="/assets/app.js"></script>
+<script type="text/javascript" src="/assets/wow.min.js"></script>
 </body>
 
 <!-- Mirrored from mythemepreviews.com/uno_personal/image/ by HTTrack Website Copier/3.x [XR&CO'2008], Sat, 31 May 2014 02:25:07 GMT -->
