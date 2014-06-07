@@ -3577,7 +3577,7 @@ h5 {
 	overflow: auto;
 }
 .parallax1 { 
-    background-image: url('/assets/background2.jpg');
+    background-image: url('/assets/background.jpg');
     overflow: auto;
     padding: 80px 0;
     -webkit-background-size: cover;
@@ -3588,7 +3588,7 @@ h5 {
 }
 .parallax1 p, .parallax1 h2, .parallax2 p, .parallax2 h2 { color: #ffffff; }
 .parallax2 {
-    background-image: url('/assets/background2.jpg');
+    background-image: url('/assets/background.jpg');
     overflow: auto;
     padding: 80px 0;
     -webkit-background-size: cover;

@@ -12,5 +12,15 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+//= require jquery.min.js
+//= require owl.carousel.js
+//= require jquery.fitvids.js
+//= require jquery.fancybox.pack8cbb.js
+//= require retina.js
+//= require jquery.scrollToTop.min.js
+//= require jquery.fs.wallpaper.js
+//= require jquery.easing.1.3.js
+//= require jquery.plusanchor.js
+//= require jquery.knob.js
+//= require app.js
+//= require wow.min.js
